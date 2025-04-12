@@ -1,50 +1,41 @@
-# Welcome to your Expo app 👋
+♻️ EcoBin – Smart Waste Management System
+EcoBin is a smart waste management solution designed to promote environmentally responsible behavior by combining incentivized recycling with digital advertising.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+🔧 Key Features
+QR Code-Based Waste Disposal: Users scan a QR code on the bin to log waste disposal and earn reward points.
 
-## Get started
+Incentivized Recycling: Encourages people to dispose of waste properly by offering rewards or points.
 
-1. Install dependencies
+Digital Advertisement Display: EcoBin features an integrated digital display to show ads, helping generate revenue for maintenance and awareness.
 
-   ```bash
-   npm install
-   ```
+Waste Analytics: Tracks disposal trends to help optimize waste collection and reduce overflow.
 
-2. Start the app
+Admin Dashboard (optional): Manage bins, monitor usage, and analyze data.
 
-   ```bash
-    npx expo start
-   ```
+🚀 Tech Stack
+Frontend: React Native (for mobile app)
 
-In the output, you'll find options to open the app in a
+Backend: Firebase / Node.js (if applicable)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Database: Firebase Realtime DB / Firestore / MongoDB
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+QR Code Integration: For scanning and reward tracking
 
-## Get a fresh project
+📱 Demo
+[Add screenshots or a short demo video link here]
 
-When you're ready, run:
+📦 How to Use
+Install the app on your device.
 
-```bash
-npm run reset-project
-```
+Scan the QR code on the EcoBin before disposing of waste.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Earn points and track your eco-score via the app.
 
-## Learn more
+💡 Future Scope
+Integration with government waste management systems.
 
-To learn more about developing your project with Expo, look at the following resources:
+Geolocation tracking for nearest EcoBins.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Redeemable rewards system.
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Machine learning for waste detection (optional upgrade).
